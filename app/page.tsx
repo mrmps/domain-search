@@ -5,7 +5,7 @@ import SquareTextarea from "@/components/square-textarea";
 import ExampleComponent from "@/components/examples";
 import ShimmerButton from "@/components/ui/shimmer-button";
 
-export function ShimmerButtonDemo() {
+function ShimmerButtonDemo() {
   return (
     <a href="https://kdb.ai" target="_blank" rel="noopener noreferrer">
       <div className="z-10 mt-4 flex items-center justify-center">
