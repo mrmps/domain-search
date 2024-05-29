@@ -1,6 +1,6 @@
 
 <a href="https://domainloom.com">
-  <img alt="DomainLoom – A domain name search engine powered by kdb.ai" src="https://domainloom.com/logo" />
+  <img alt="DomainLoom – A domain name search engine powered by kdb.ai" src="https://domainloom.com/opengraph" />
   <h1 align="center">🧵 DomainLoom</h1>
 </a>
 
@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://twitter.com/michael_chomsky">
     <img src="https://img.shields.io/twitter/follow/michael_chomsky?style=flat&label=michael_chomsky&logo=twitter&color=0bf&logoColor=fff" alt="DomainLoom Twitter follower count" />
-  </a>domainloom
+  </a>
   <a href="https://github.com/mrmps/domainloom">
     <img src="https://img.shields.io/github/stars/mrmps/domainloom?label=domainloom%2Fdomainloom" alt="DomainLoom repo star count" />
   </a>
