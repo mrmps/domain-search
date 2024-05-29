@@ -4,7 +4,6 @@ import * as React from "react";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import { navigate } from "@/app/actions";
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 
@@ -54,9 +53,7 @@ export default function SquareTextarea() {
     event.preventDefault();
     if (hasContent) {
       const formData = new FormData(event.currentTarget);
-      // router.push(`/search?q=${formData.get('q')}`);
       replace('/search?q=' + formData.get('q'));
-      // navigate(formData);
     }
   };
   const handleKeyDown = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {

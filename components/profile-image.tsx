@@ -9,7 +9,6 @@ interface ProfileImageProps {
 }
 
 const ProfileImage: React.FC<ProfileImageProps> = ({ imageUrl, initials }) => {
-    // State to track if image has loaded correctly
     const [imageError, setImageError] = useState<boolean>(false);
   
     return (
