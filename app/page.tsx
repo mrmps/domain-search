@@ -1,5 +1,4 @@
 import * as React from "react";
-import NavBar from "@/components/nav-bar";
 import SquareTextarea from "@/components/square-textarea";
 import ExampleComponent from "@/components/examples";
 import ShimmerButton from "@/components/ui/shimmer-button";
@@ -24,7 +23,6 @@ function ShimmerButtonDemo() {
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-6 pt-40 sm:pt-64">
-      <NavBar />
       <div className="mb-10 flex items-center justify-center pb-xs md:text-center">
         <div className="default font-sans text-base text-textMain dark:text-textMainDark selection:bg-super/50 selection:text-textMain dark:selection:bg-superDuper/10 dark:selection:text-superDark">
           <span className="font-regular font-display text-4xl">

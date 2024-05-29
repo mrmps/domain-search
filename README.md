@@ -11,9 +11,9 @@
 <p align="center">
   <a href="https://twitter.com/michael_chomsky">
     <img src="https://img.shields.io/twitter/follow/michael_chomsky?style=flat&label=michael_chomsky&logo=twitter&color=0bf&logoColor=fff" alt="DomainLoom Twitter follower count" />
-  </a>
-  <a href="https://github.com/domainloom/domainloom">
-    <img src="https://img.shields.io/github/stars/domainloom/domainloom?label=domainloom%2Fdomainloom" alt="DomainLoom repo star count" />
+  </a>domainloom
+  <a href="https://github.com/mrmps/domainloom">
+    <img src="https://img.shields.io/github/stars/mrmps/domainloom?label=domainloom%2Fdomainloom" alt="DomainLoom repo star count" />
   </a>
 </p>
 
@@ -31,7 +31,7 @@ DomainLoom is a domain name search engine powered by kdb.ai, with names supplied
 You can clone & create this repo locally with the following command:
 
 ```bash
-git clone https://github.com/mrmps/domain-search
+git clone https://github.com/mrmps/domainloom
 ```
 
 Then, install the dependencies with your package manager of choice:
