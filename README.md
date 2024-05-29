@@ -1,6 +1,6 @@
 
 <a href="https://domainloom.com">
-  <img alt="DomainLoom – A domain name search engine powered by kdb.ai" src="https://domainloom.com/opengraph-image" />
+  <img alt="DomainLoom – A domain name search engine powered by kdb.ai" src="https://domainloom.com/logo" />
   <h1 align="center">🧵 DomainLoom</h1>
 </a>
 
@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/domainloom">
-    <img src="https://img.shields.io/twitter/follow/domainloom?style=flat&label=domainloom&logo=twitter&color=0bf&logoColor=fff" alt="DomainLoom Twitter follower count" />
+  <a href="https://twitter.com/michael_chomsky">
+    <img src="https://img.shields.io/twitter/follow/michael_chomsky?style=flat&label=michael_chomsky&logo=twitter&color=0bf&logoColor=fff" alt="DomainLoom Twitter follower count" />
   </a>
   <a href="https://github.com/domainloom/domainloom">
     <img src="https://img.shields.io/github/stars/domainloom/domainloom?label=domainloom%2Fdomainloom" alt="DomainLoom repo star count" />
@@ -19,7 +19,6 @@
 
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
-  <a href="#one-click-deploy"><strong>One-click Deploy</strong></a> ·
   <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a> ·
   <a href="#author"><strong>Author</strong></a>
 </p>
@@ -29,16 +28,10 @@
 
 DomainLoom is a domain name search engine powered by kdb.ai, with names supplied by Brandpa and more sources coming soon.
 
-## One-click Deploy
-
-You can deploy this template to Vercel with the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmrmps%2Fdomain-search&project-name=domainloom&repository-name=domainloom&demo-title=DomainLoom&demo-description=A%20domain%20name%20search%20engine%20powered%20by%20kdb.ai%2C%20with%20names%20supplied%20by%20Brandpa%20and%20more%20sources%20coming%20soon&demo-url=https%3A%2F%2Fdomainloom.com&demo-image=https%3A%2F%2Fdomainloom.com%2Fopengraph-image&env=BACKEND_URL)
-
-You can also clone & create this repo locally with the following command:
+You can clone & create this repo locally with the following command:
 
 ```bash
-npx create-next-app domainloom --example "https://github.com/domainloom/domainloom"
+git clone https://github.com/mrmps/domain-search
 ```
 
 Then, install the dependencies with your package manager of choice:
@@ -69,10 +62,10 @@ pnpm i
 Based on the project details, set the following environment variable:
 
 ```bash
-BACKEND_URL='https://domains-gpt-MichaelR35.replit.app'
+BACKEND_URL='YOUR_BACKEND_URL'
 ```
 
-To run the backend, you need a Cohere API key, a VoyaGeAI API key, and also the kdb.ai credentials. Note that you don't need the kdb.ai credentials for the frontend.
+To run the backend, you need a Cohere API key, a VoyageAI API key, and also the KDB.AI credentials. Note that you don't need the KDB.AI credentials for the frontend.
 
 ## Cloning the Backend
 
@@ -82,4 +75,4 @@ To clone the backend, use the following repository:
 
 ## Author
 
-- DomainLoom Team ([@domainloom](https://twitter.com/domainloom))
+- DomainLoom Team ([@michael_chomsky](https://twitter.com/michael_chomsky))
