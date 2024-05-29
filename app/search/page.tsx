@@ -4,6 +4,7 @@ import SearchTextarea from "@/components/search-textarea";
 import { Suspense } from "react";
 import CardSkeleton from "@/components/card-skeletons";
 import HorizontalExamples from "@/components/horizontal-examples";
+import { MultipleDomainCardSkeletons } from "@/components/profile-cards";
 
 export default function Search({
   searchParams,
@@ -21,7 +22,7 @@ export default function Search({
         <Suspense
           key={keyString}
           fallback={
-           <CardSkeleton />
+           <MultipleDomainCardSkeletons count={20} />
           }
         >
           <ProfileCards searchQuery={searchParams.q as string} />

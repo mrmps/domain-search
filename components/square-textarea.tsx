@@ -65,6 +65,7 @@ export default function SquareTextarea() {
           onKeyDown={handleKeyDown}
           className="min-h-[110px] w-full focus-visible:ring-0 border-zinc-300 focus-visible:border-zinc-300 focus-visible:border-2"
           style={{ overflow: "hidden", resize: "none", boxShadow: "0px 1px 3px rgba(0, 0, 0, 0.05)" }}
+          placeholder="A thorough description of your company or product, or some keywords..."
         />
         <Button
           variant="outline"
