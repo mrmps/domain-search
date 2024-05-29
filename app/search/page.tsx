@@ -15,7 +15,7 @@ export default function Search({
   const keyString = `search=${searchParams?.q}`; // note this has to be unique for the skeletons to work
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-6 sm:pt-3">
+    <main className="flex min-h-screen flex-col items-center p-6 sm:pt-3 mt-24">
       <SearchTextarea />
       <HorizontalExamples />
       <div className="mt-10 items-center">

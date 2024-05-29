@@ -1,11 +1,11 @@
 
 <a href="https://domainloom.com">
   <img alt="DomainLoom – A domain name search engine powered by kdb.ai" src="https://domainloom.com/opengraph-image" />
-  <h1 align="center">DomainLoom</h1>
+  <h1 align="center">🧵 DomainLoom</h1>
 </a>
 
 <p align="center">
-  A domain name search engine powered by kdb.ai, with names supplied by Brandpa (more sources coming soon)
+  A domain name search engine powered by KDB.AI, with names supplied by Brandpa (more sources coming soon)
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ DomainLoom is a domain name search engine powered by kdb.ai, with names supplied
 
 You can deploy this template to Vercel with the button below:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdomainloom%2Fdomainloom&project-name=domainloom&repository-name=domainloom&demo-title=DomainLoom&demo-description=A%20domain%20name%20search%20engine%20powered%20by%20kdb.ai%2C%20with%20names%20supplied%20by%20Brandpa%20and%20more%20sources%20coming%20soon&demo-url=https%3A%2F%2Fdomainloom.com&demo-image=https%3A%2F%2Fdomainloom.com%2Fopengraph-image&env=BACKEND_URL&envDescription=...
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmrmps%2Fdomain-search&project-name=domainloom&repository-name=domainloom&demo-title=DomainLoom&demo-description=A%20domain%20name%20search%20engine%20powered%20by%20kdb.ai%2C%20with%20names%20supplied%20by%20Brandpa%20and%20more%20sources%20coming%20soon&demo-url=https%3A%2F%2Fdomainloom.com&demo-image=https%3A%2F%2Fdomainloom.com%2Fopengraph-image&env=BACKEND_URL)
 
 You can also clone & create this repo locally with the following command:
 

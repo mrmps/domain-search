@@ -18,14 +18,7 @@ export default function NavBar() {
       >
         <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between w-full">
           <Link href="/" className="flex items-center font-display text-2xl">
-            <Image
-              src="/logo.png"
-              alt="Precedent logo"
-              width="30"
-              height="30"
-              className="mr-2 rounded-sm"
-            ></Image>
-            <p>DomainLoom</p>
+            <p>🧵 DomainLoom</p>
           </Link>
           <div>
             <button
@@ -37,7 +30,7 @@ export default function NavBar() {
                 )
               }
             >
-              Github
+              Star on Github
             </button>
           </div>
         </div>
