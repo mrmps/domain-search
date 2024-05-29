@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<a href="https://domainloom.com">
+  <img alt="DomainLoom – A domain name search engine powered by kdb.ai" src="https://domainloom.com/opengraph-image" />
+  <h1 align="center">DomainLoom</h1>
+</a>
 
-First, run the development server:
+<p align="center">
+  A domain name search engine powered by kdb.ai, with names supplied by Brandpa (more sources coming soon)
+</p>
+
+<p align="center">
+  <a href="https://twitter.com/domainloom">
+    <img src="https://img.shields.io/twitter/follow/domainloom?style=flat&label=domainloom&logo=twitter&color=0bf&logoColor=fff" alt="DomainLoom Twitter follower count" />
+  </a>
+  <a href="https://github.com/domainloom/domainloom">
+    <img src="https://img.shields.io/github/stars/domainloom/domainloom?label=domainloom%2Fdomainloom" alt="DomainLoom repo star count" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="#introduction"><strong>Introduction</strong></a> ·
+  <a href="#one-click-deploy"><strong>One-click Deploy</strong></a> ·
+  <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a> ·
+  <a href="#author"><strong>Author</strong></a>
+</p>
+<br/>
+
+## Introduction
+
+DomainLoom is a domain name search engine powered by kdb.ai, with names supplied by Brandpa and more sources coming soon.
+
+## One-click Deploy
+
+You can deploy this template to Vercel with the button below:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdomainloom%2Fdomainloom&project-name=domainloom&repository-name=domainloom&demo-title=DomainLoom&demo-description=A%20domain%20name%20search%20engine%20powered%20by%20kdb.ai%2C%20with%20names%20supplied%20by%20Brandpa%20and%20more%20sources%20coming%20soon&demo-url=https%3A%2F%2Fdomainloom.com&demo-image=https%3A%2F%2Fdomainloom.com%2Fopengraph-image&env=BACKEND_URL&envDescription=...
+
+You can also clone & create this repo locally with the following command:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx create-next-app domainloom --example "https://github.com/domainloom/domainloom"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, install the dependencies with your package manager of choice:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm i
+yarn
+pnpm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack + Features
 
-## Learn More
+### Frameworks
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js](https://nextjs.org/) – React framework for building performant apps with the best developer experience
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Platforms
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Vercel](https://vercel.com/) – Easily preview & deploy changes with git
 
-## Deploy on Vercel
+### UI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for rapid UI development
+- [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) – Optimize custom fonts and remove external network requests for improved performance
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Environment Setup
+
+Based on the project details, set the following environment variable:
+
+```bash
+BACKEND_URL='https://domains-gpt-MichaelR35.replit.app'
+```
+
+To run the backend, you need a Cohere API key, a VoyaGeAI API key, and also the kdb.ai credentials. Note that you don't need the kdb.ai credentials for the frontend.
+
+## Cloning the Backend
+
+To clone the backend, use the following repository:
+
+[DomainsGPT Backend](https://replit.com/@mryaboy/DomainsGPT)
+
+## Author
+
+- DomainLoom Team ([@domainloom](https://twitter.com/domainloom))
