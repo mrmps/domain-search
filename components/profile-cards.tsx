@@ -1,6 +1,8 @@
-import React, { Suspense } from "react";
+import React from "react";
 import { getDomains } from "@/lib/getDomains";
 import { Skeleton } from "./ui/skeleton";
+import Image from "next/image";
+import { track } from '@vercel/analytics/server';
 
 type DomainInfo = {
   image_url: string;
@@ -24,7 +26,9 @@ const DomainCardSkeleton = () => (
   </div>
 );
 
-export const MultipleDomainCardSkeletons: React.FC<{ count: number }> = ({ count }) => (
+export const MultipleDomainCardSkeletons: React.FC<{ count: number }> = ({
+  count,
+}) => (
   <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
     {Array.from({ length: count }, (_, index) => (
       <DomainCardSkeleton key={index} />
@@ -35,9 +39,10 @@ export const MultipleDomainCardSkeletons: React.FC<{ count: number }> = ({ count
 const DomainCard: React.FC<{ domainInfo: DomainInfo }> = ({ domainInfo }) => (
   <a
     className="group block w-full"
-    href={`https://brandpa.com/names/${domainInfo.domain.replace('.com', '')}`}
+    href={`https://brandpa.com/names/${domainInfo.domain.replace(".com", "")}`}
     target="_blank"
     rel="noreferrer"
+    onClick={() => track("Clicked Domain Card", { domain: domainInfo.domain })}
   >
     <div className="relative flex flex-col items-center justify-center overflow-hidden rounded-xl border border-stone-200 bg-white shadow-md transition-all hover:shadow-lg">
       <div
@@ -48,10 +53,12 @@ const DomainCard: React.FC<{ domainInfo: DomainInfo }> = ({ domainInfo }) => (
           backgroundColor: "rgb(2, 33, 38)",
         }}
       >
-        <img
+        <Image
           src={domainInfo.image_url}
           alt={domainInfo.domain}
-          className="h-full w-full object-cover"
+          layout="fill"
+          objectFit="cover"
+          className="h-full w-full"
         />
       </div>
       <div className="w-full p-4 border-t border-stone-200">
