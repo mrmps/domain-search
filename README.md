@@ -1,6 +1,6 @@
 
 <a href="https://domainloom.com">
-  <img alt="DomainLoom – A domain name search engine powered by kdb.ai" src="https://domainloom.com/opengraph-image" />
+  <img alt="DomainLoom – A domain name search engine powered by kdb.ai" src="https://domainloom.com/og.png" />
   <h1 align="center">🧵 DomainLoom</h1>
 </a>
 
