@@ -1,24 +1,7 @@
 import * as React from "react";
 import SquareTextarea from "@/components/square-textarea";
 import ExampleComponent from "@/components/examples";
-import ShimmerButton from "@/components/ui/shimmer-button";
-
-function ShimmerButtonDemo() {
-  return (
-    <a href="https://kdb.ai" target="_blank" rel="noopener noreferrer">
-      <div className="z-10 mt-4 flex items-center justify-center">
-        <ShimmerButton className="shadow-2xl py-2 px-2">
-          <span className="whitespace-pre-wrap text-center text-xxs font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10">
-            <span className="text-white">
-              Powered by
-              <span className="text-[#FFD700]">{" "}KDB.AI</span>
-            </span>
-          </span>
-        </ShimmerButton>
-      </div>
-    </a>
-  );
-}
+import { ShimmerButtonDemo } from "@/components/shimmer-kdb";
 
 export default function Home() {
   return (
