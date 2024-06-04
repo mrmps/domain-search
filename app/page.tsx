@@ -9,7 +9,7 @@ export default function Home() {
       <div className="mb-10 flex items-center justify-center pb-xs md:text-center">
         <div className="default font-sans text-base text-textMain dark:text-textMainDark selection:bg-super/50 selection:text-textMain dark:selection:bg-superDuper/10 dark:selection:text-superDark">
           <span className="font-regular font-display text-4xl">
-            Search Brandable Domain Names
+            Search 20k+ Brandable Domain Names
           </span>
         </div>
       </div>
